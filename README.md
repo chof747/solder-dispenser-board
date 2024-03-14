@@ -1,15 +1,8 @@
-# kicad-project-template
-Template for a KiCad Project 
+## solder-dispenser-board
 
-This project provides an empty KiCad project with all the settings for 
-a JCLPCB project.
+This is the connection board for a solder paste dispenser featuring a DC motor and breaking out to the electronics
+which are on a separate board and connect to the dispenser via an RJ11 connector
 
-The project template is setup for KiCad 7.x
+## Revision History:
 
-## Setup 
-
-run the ```initialize.sh``` script which does the following:
-
-  - Renaming the project files from KiCad
-  - Add the template repository as another upstream
-  - Updating this ReadMe
+- **v1.0**: Initial version (filed for fabrication: 13.03.2024)
